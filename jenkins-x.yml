@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: deeboh-production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: deeboh-production
+  pipelines: {}
